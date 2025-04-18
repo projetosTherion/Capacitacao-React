@@ -12,7 +12,7 @@ git checkout -b SeuNomeSuaDiretoria
 ```
 git add .
 git commit -m "Mensagem de commit"
-git push origin SeuNomeSuaDiretoria
+git push origin SeuNome2025
 ```
 # Instalando node_modules
 ```
