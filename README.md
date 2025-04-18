@@ -6,7 +6,7 @@ git clone https://github.com/projetosTherion/Capacitacao-React.git
 ```
 # Criar sua branch com "SeuNome+Diretoria"
 ```
-git checkout -b SeuNomeSuaDiretoria
+git checkout -b SeuNome2025
 ```
 # Adicionar mudanças e subir para sua branch no git
 ```
