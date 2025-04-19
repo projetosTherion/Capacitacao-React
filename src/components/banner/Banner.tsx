@@ -1,4 +1,4 @@
-import Avatar from "@/assets/avatar.svg";
+import Avatar from "@/assets/1.png";
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -17,14 +17,14 @@ export const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
             >
               <h1 className="text-4xl font-bold lg:text-7xl">
-                Maria<span> Eduarda</span>
+                Tiago<span> Fernandes Soucek</span>
               </h1>
               <div className="mb-6 text-4xl lg:text-6xl font-semibold uppercase">
-                <span className="ml-4 text-white">desenvolvedora</span>{" "}
+                <span className="ml-4 text-white">desenvolvedor</span>{" "}
                 <p>
                   <TypeAnimation
                     className="text-accent"
-                    sequence={["Html", 2000, "Css", 2000, "React", 2000, "PHP", 2000,"JavaScript", 2000]}
+                    sequence={["HTML", 2000, "CSS", 2000, "Python", 2000, "Swift", 2000,"JavaScript", 2000]}
                     speed={50}
                     wrapper="span"
                     repeat={Infinity}
@@ -38,8 +38,7 @@ export const Banner = () => {
               initial="hidden"
               viewport={{ once: false, amount: 1 }}
             >
-              Atualmente estudante de Engenharia de Computação na Universidade Federal do Paraná, campus Apucarana.
-              Sou estagiária da empresa ItLab e presidente fundadora da empresa junior Therion
+              Estudante de Engenharia de Computação no sétimo período na Universidade Federal do Paraná, campus Apucarana.
             </motion.p>
 
             <motion.div
@@ -48,20 +47,14 @@ export const Banner = () => {
               initial="hidden"
               className="flex items-center gap-x-3 max-w-max mx-auto md:mx-0 mt-5 mb-5"
             >
-              <button className="btn btn-lg"><a href="mailto:mariaeduarda@therionej.com.br">Entre em contato</a></button>
-              <a className="text-gradient btn-link" href="https://beacons.ai/pedroso?fbclid=PAAaZUZ7vjAEeBh3Txrks_YpJLI2zXpxXcSzBWOEpDENTVvZGGspQeYiJ95NU_aem_Af2Pz9zH9XiZ63aEmQ7hq7Voq7ThuBcZB5VpTt2gSPLID_Je-w2cSIjlxAdYFQI7cdo" target="_blank">
-                Meu portifolio
-              </a>
+              <button className="btn btn-lg"><a href="mailto:tiago.2004@alunos.utfpr.edu.br">Entre em contato</a></button>
             </motion.div>
             <div className="flex gap-x-2 max-w-max mx-auto md:mx-0">
-              <a href="https://github.com/mariaeduardapedroso" target="_blank">
+              <a href="https://github.com/TttiagoTT" target="_blank">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/maria-eduarda-pedroso-7671951b2/" target="_blank">
+              <a href="www.linkedin.com/in/tiago-fernandes-soucek-73606a2b6" target="_blank">
                 <FaLinkedin />
-              </a>
-              <a href="https://www.facebook.com/mariaeduarda.pedroso.397" target="_blank">
-                <FaFacebook />
               </a>
             </div>
           </div>
