@@ -14,13 +14,13 @@ export const Services = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.5 }}
-            className="flex-1 md:bg-services bg-no-repeat bg-bottom mix-blend-lighten"
+            className="flex-1 md:bg-services bg-no-repeat bg-center"
           >
-            <h2 className="h2 text-accent">O que faço.</h2>
-            <h3 className="h3">Entusiasta em programar e aprender</h3>
+            <h2 className="h2 text-accent">O que faço?</h2>
+            <h3 className="h3 font-secondary">Entusiasta em soldar e programar</h3>
             <button className="btn btn-sm">
-              <a href="https://beacons.ai/pedroso?fbclid=PAAaZUZ7vjAEeBh3Txrks_YpJLI2zXpxXcSzBWOEpDENTVvZGGspQeYiJ95NU_aem_Af2Pz9zH9XiZ63aEmQ7hq7Voq7ThuBcZB5VpTt2gSPLID_Je-w2cSIjlxAdYFQI7cdo" target="_blank">
-                Entenda um pouco
+              <a href="https://github.com/Sefora-Davanso" target="_blank">
+                Saiba mais!
               </a>
             </button>
           </motion.div>

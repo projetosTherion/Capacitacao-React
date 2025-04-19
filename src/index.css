@@ -4,11 +4,13 @@
 
 .btn {
   background: linear-gradient(92.23deg,
-      #ff40ac 21.43%,
-      #b032b9 50.63%,
-      #b109f4 100%,
-      #ff56f6 100.04%);
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+      #2e3a5b 0%,
+      /* Azul escuro nas pontas */
+      #1818b7 50%,
+      /* Azul claro no meio */
+      #2e3a5b 100%);
+  /* Azul escuro novamente nas pontas */
+  box-shadow: 0px 4.42184px 107.23px rgba(124, 124, 124, 0.51);
 }
 
 .btn:hover {
@@ -19,11 +21,14 @@
 .gradient,
 .active {
   background: linear-gradient(92.23deg,
-      #ff40ac 21.43%,
-      #b032b9 50.63%,
-      #b109f4 100%,
-      #ff56f6 100.04%);
+      #2e3a5b 0%,
+      /* Azul escuro nas pontas */
+      #1818b7 50%,
+      /* Azul claro no meio */
+      #2e3a5b 100%);
+  /* Azul escuro novamente nas pontas */
 }
+
 
 .active {
   color: #fff;
@@ -61,7 +66,11 @@
   }
 
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#1818b7] to-[#2e3a5b] font-bold font-primary hover:from-[#1818b7] hover:to-[#2e3a5b];
+  }
+
+  .text-gradient2 {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#eced6f] to-[#feff99] font-bold font-primary hover:from-[#eced6f] hover:to-[#eced6f];
   }
 
   .section {

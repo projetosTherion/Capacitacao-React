@@ -8,7 +8,7 @@ export const Nav = () => {
   return (
     <nav className="fixed bottom-2 lg:bottom-7 w-full overflow-hidden z-50">
       <div className="container mx-auto">
-        <div className="bg-black/90 w-full h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] px-5 mx-auto flex items-center justify-between text-2xl text-yellow-50 z-50">
+        <div className=" w-full h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] px-5 mx-auto flex items-center justify-between text-2xl text-yellow-50 z-50">
           <Link
             to="home"
             className={styleLink}

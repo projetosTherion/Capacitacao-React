@@ -71,10 +71,10 @@ export const Contact = () => {
             className="flex-1"
           >
             <div>
-              <h4 className="text-2xl uppercase text-accent font-medium">
+              <h4 className="font-secondary text-3xl text-accent font-medium">
                 Contato
               </h4>
-              <h2 className="text-5xl lg:text-8xl uppercase mb-7">
+              <h2 className="font-primary uppercase text-5xl">
                 Vamos conversar!
               </h2>
             </div>
@@ -94,7 +94,7 @@ export const Contact = () => {
               name="nome"
               className="bg-transparent border-b py-2 text-white placeholder:text-white outline-none w-full"
               type="name"
-              placeholder="seu nome"
+              placeholder="Seu nome"
               required
             />
             <input
@@ -103,7 +103,7 @@ export const Contact = () => {
               name="email"
               className="bg-transparent border-b py-2 text-white placeholder:text-white outline-none w-full"
               type="email"
-              placeholder="seu melhor email"
+              placeholder="Seu email"
               required
             />
             <textarea
@@ -111,11 +111,11 @@ export const Contact = () => {
               value={formData.mensagem}
               name="mensagem"
               className="bg-transparent border-b py-10 text-white placeholder:text-white outline-none w-full resize-none mb-5"
-              placeholder="mensagem"
+              placeholder="Mensagem"
               required
             ></textarea>
             <button type="submit" className="btn btn-sm">
-              enviar mensagem
+              Enviar mensagem
             </button>
           </motion.form>
         </div>
