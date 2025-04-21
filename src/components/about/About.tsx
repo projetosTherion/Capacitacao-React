@@ -26,11 +26,10 @@ export const About = () => {
             className="flex-1"
           >
             <h2 className="h2 text-accent">Sobre mim.</h2>
-            <h3 className="h3">sou desenvolvedora junior FullStack</h3>
+            <h3 className="h3">sou desenvolvedor júnior FullStack</h3>
             <p>
-              Atualmente sou presidente da empresa junior therion na qual trabalha com desenvolvimento
-              web, impressão e prototipagem 3D e vários outros serviços da area. Também sou estagiaria na empresa
-              ItLab na qual trabalho com Front-end e Back-end todos os dias.
+              Atualmente no 7º do curso de Engenharia de Computação na UTFPR e estagiário da empresa Firepot Gaming. 
+              Especializado no desenvolvimento de Softweares, especialmente no que se refere automação de projetos.
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 mt-5">
               <div className="">
@@ -66,10 +65,9 @@ export const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5">
-              <button className="btn btn-lg"><a href="mailto:mariaeduarda@therionej.com.br">Vamos conversar</a></button>
-              <a href="https://beacons.ai/pedroso?fbclid=PAAaZUZ7vjAEeBh3Txrks_YpJLI2zXpxXcSzBWOEpDENTVvZGGspQeYiJ95NU_aem_Af2Pz9zH9XiZ63aEmQ7hq7Voq7ThuBcZB5VpTt2gSPLID_Je-w2cSIjlxAdYFQI7cdo" target="_blank" className="text-gradient btn-link">
-                Meu Portifolio
-              </a>
+              <button className="btn btn-lg">
+                <a href="mailto:thiagocristovao@alunos.utfpr.edu.br">Vamos conversar</a>
+              </button>
             </div>
           </motion.div>
         </div>
