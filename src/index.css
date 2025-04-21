@@ -4,11 +4,11 @@
 
 .btn {
   background: linear-gradient(92.23deg,
-      #ff40ac 21.43%,
-      #b032b9 50.63%,
-      #b109f4 100%,
-      #ff56f6 100.04%);
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  #9b59b6 21.43%,   /* roxo suave */
+  #8e44ad 50.63%,   /* roxo intenso */
+  #6a2c96 100%,     /* roxo escuro */
+  #a29bfe 100.04%); /* lilás suave */
+box-shadow: 0px 4.42184px 107.23px rgba(106, 44, 150, 0.51);
 }
 
 .btn:hover {
@@ -19,10 +19,10 @@
 .gradient,
 .active {
   background: linear-gradient(92.23deg,
-      #ff40ac 21.43%,
-      #b032b9 50.63%,
-      #b109f4 100%,
-      #ff56f6 100.04%);
+  #9b59b6 21.43%, /* roxo suave */
+  #8e44ad 50.63%, /* roxo mais intenso */
+  #6a2c96 100%,   /* roxo escuro */
+  #a29bfe 100.04%); /* lilás suave */
 }
 
 .active {
@@ -61,7 +61,7 @@
   }
 
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#d1a35d] to-[#f2c94c] font-bold font-primary hover:from-[#d1a35d] hover:to-[#f2c94c];
   }
 
   .section {

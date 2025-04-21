@@ -13,8 +13,8 @@ export const Footer = (props: Props) => {
         <div className="flex lg:flex-row mb-10 justify-between">
           <div className="flex">
             <a href="" className="text-gradient">
-              Maria <br />
-              <span className="text-white">Eduarda</span>
+              Thiago <br />
+              <span className="text-white">Cristovão</span>
             </a>
           </div>
           <div className="flex flex-col lg:basis-1/2">
@@ -53,7 +53,7 @@ export const Footer = (props: Props) => {
               offset={-200}
             >
               <BsClipboardData />
-              <span>Seviço</span>
+              <span>Serviço</span>
             </Link>
 
             <Link

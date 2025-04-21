@@ -26,15 +26,14 @@ export const About = () => {
             className="flex-1"
           >
             <h2 className="h2 text-accent">Sobre mim.</h2>
-            <h3 className="h3">sou desenvolvedor júnior FullStack</h3>
+            <h3 className="h3">Sou desenvolvedor júnior FullStack</h3>
             <p>
-              Atualmente no 7º do curso de Engenharia de Computação na UTFPR e estagiário da empresa Firepot Gaming. 
-              Especializado no desenvolvimento de Softweares, especialmente no que se refere automação de projetos.
+              Especializado no desenvolvimento de Softwares, especialmente no que se refere automação de projetos.
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 mt-5">
               <div className="">
                 <div className="text-4xl text-gradient font-tertiary mb-2">
-                  {InView ? <CountUp start={0} end={10} duration={3} /> : null}
+                  {InView ? <CountUp start={0} end={5} duration={3} /> : null}
                   +
                 </div>
                 <div className="text-sm tracking-[2px]">
@@ -45,7 +44,7 @@ export const About = () => {
 
               <div className="">
                 <div className="text-4xl text-gradient font-tertiary mb-2">
-                  {InView ? <CountUp start={0} end={13} duration={3} /> : null}
+                  {InView ? <CountUp start={0} end={3} duration={3} /> : null}
                   +
                 </div>
                 <div className="text-sm tracking-[2px]">
@@ -56,11 +55,11 @@ export const About = () => {
 
               <div className="">
                 <div className="text-4xl text-gradient font-tertiary mb-2">
-                  {InView ? <CountUp start={0} end={3} duration={3} /> : null}
+                  {InView ? <CountUp start={0} end={2} duration={3} /> : null}
                 </div>
                 <div className="text-sm tracking-[2px]">
                   Anos de <br />
-                  Experiencia
+                  Experiência
                 </div>
               </div>
             </div>
