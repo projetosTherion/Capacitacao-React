@@ -23,28 +23,14 @@ export const Work = () => {
               <p className="">
                 Um pouquinho de meus ultimos trabalhos pessoais.
               </p>
-              <button className="btn btn-sm mt-7"><a href="https://github.com/mariaeduardapedroso" target="_blank">Ver todos os projetos</a></button>
+              <button className="btn btn-sm mt-7"><a href="https://github.com/lluiigi" target="_blank">Ver todos os projetos</a></button>
             </div>
             {/* img */}
             <Workimg
               img={Img1}
               nameProjeto={"Layout responsivo"}
               title={"Apeperia"}
-              url={"https://mariaeduardapedroso.github.io/Alura-Layout-Responsivo/"}
-            />
-            {/* img */}
-            <Workimg
-              img={Img2}
-              nameProjeto={"Site HTML + CSS"}
-              title={"Alura Barbearia"}
-              url={"https://mariaeduardapedroso.github.io/Alura-HTML-E-CSS-final/"}
-            />
-            {/* img */}
-            <Workimg
-              img={Img3}
-              nameProjeto={"Site com javaScript"}
-              title={"Calculadora de gasto de combustivel"}
-              url={"https://mariaeduardapedroso.github.io/calcular-litros/"}
+              url={"https://github.com/lluiigi"}
             />
           </div>
         </motion.div>
