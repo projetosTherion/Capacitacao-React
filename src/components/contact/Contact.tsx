@@ -12,8 +12,8 @@ interface FormData {
 
 export const Contact = () => {
   const [formData, setFormData] = useState<FormData>({
-    nome: "",
-    email: "",
+    nome: "Luigi Marçon Leite",
+    email: "luigimarcon10@gmail.com ou luigileite@alunos.utfpr.edu.br",
     mensagem: "",
   });
 
