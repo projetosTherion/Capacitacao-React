@@ -54,14 +54,11 @@ export const Banner = () => {
               </a>
             </motion.div>
             <div className="flex gap-x-2 max-w-max mx-auto md:mx-0">
-              <a href="https://github.com/mariaeduardapedroso" target="_blank">
+              <a href="https://github.com/lluiigi" target="_blank">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/maria-eduarda-pedroso-7671951b2/" target="_blank">
-                <FaLinkedin />
-              </a>
-              <a href="https://www.facebook.com/mariaeduarda.pedroso.397" target="_blank">
-                <FaFacebook />
+              <a href="https://www.instagram.com/luigimleite/" target="_blank">
+                <Instagram />
               </a>
             </div>
           </div>
