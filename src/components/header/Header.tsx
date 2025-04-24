@@ -6,9 +6,9 @@ export const Header = () => {
         <div className="flex justify-between items-center ">
           <a href="" className="text-gradient">
             Maria <br />
-            <span className="text-white">Eduarda</span>
+            <span className="text-white">Júlia</span>
           </a>
-          <button className="btn btn-sm"><a href="mailto:mariaeduarda@therionej.com.br">Entrar em contato</a></button>
+          <button className="btn btn-sm"><a href="mailto:mariarocha.2023@alunos.utfpr.edu.com.br">Entrar em contato</a></button>
         </div>
       </div>
     </header>
