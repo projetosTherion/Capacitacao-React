@@ -26,9 +26,12 @@ export const About = () => {
             className="flex-1"
           >
             <h2 className="h2 text-accent">Sobre mim.</h2>
-            <h3 className="h3">sou desenvolvedor junior FullStack</h3>
+            <h3 className="h3">sou desenvolvedor junior FullStack e estudante de computação</h3>
             <p>
-              Acabei de entrar na empresa junior e espero conseguir melhor muito mais.
+              Sou estudante de Engenharia da Computação e integrante da empresa júnior Therionej. 
+              Tenho grande entusiasmo por tecnologia e estou continuamente em busca de desafios e oportunidades que contribuam para meu desenvolvimento profissional. 
+              Tenho afinidade com a área de back-end e já possuo experiência em desenvolvimento web. 
+              Estou sempre explorando novas ferramentas e aprendendo tecnologias que ampliem meus conhecimentos na área.
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 mt-5">
               <div className="">
