@@ -4,7 +4,7 @@
 ```
 git clone https://github.com/projetosTherion/Capacitacao-React.git
 ```
-# Criar sua branch com "SeuNome+Diretoria"
+# Criar sua branch com "SeuNome+2025"
 ```
 git checkout -b SeuNome2025
 ```
