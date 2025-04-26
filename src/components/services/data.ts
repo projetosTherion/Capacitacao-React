@@ -16,17 +16,24 @@ export const services: TypeService[] = [
       url: "https://produtecalab.com.br/prototipagem-3d-o-que-e-e-quais-sao-os-seus-beneficios/",
     },
     {
-      name: "React",
+      name: "Web Design",
       description:
-        " React, uma biblioteca JavaScript, proporciona a construção eficiente de interfaces de usuário interativas e responsivas, melhorando a experiência do usuário em aplicações web.",
+        "Web Design é o processo de criação de sites e aplicações web, focando na estética, usabilidade e experiência do usuário.",
       link: "Saiba mais!",
-      url: "https://www.alura.com.br/artigos/react-js",
+      url: "https://www.alura.com.br/artigos/web-design",
     },
     {
-      name: "Site PHP",
+      name: "Desenvolvimento Web",
       description:
-        "Desenvolver um site com PHP oferece versatilidade e eficiência, permitindo a criação de páginas dinâmicas e interativas, essenciais para uma experiência web moderna.",
+        "Desenvolvimento Web é a construção e manutenção de sites e aplicações online, abrangendo desde o design até a programação e implementação de funcionalidades.",
       link: "Saiba mais!",
-      url: "https://www.php.net/manual/pt_BR/intro-whatis.php",
+      url: "https://www.alura.com.br/artigos/o-que-e-desenvolvimento-web",
+    },
+    {
+      name: "Consultoria em TI",
+      description:
+        "A consultoria em TI oferece suporte especializado para otimizar processos e implementar soluções tecnológicas eficazes.",
+      link: "Saiba mais!",
+      url: "https://www.example.com/consultoria-ti",
     },
   ];
