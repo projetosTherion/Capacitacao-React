@@ -17,7 +17,7 @@ export const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
             >
               <h1 className="text-4xl font-bold lg:text-7xl">
-                Maria<span> Eduarda</span>
+                Paula <span> Marukawa</span>
               </h1>
               <div className="mb-6 text-4xl lg:text-6xl font-semibold uppercase">
                 <span className="ml-4 text-white">desenvolvedora</span>{" "}
@@ -39,7 +39,7 @@ export const Banner = () => {
               viewport={{ once: false, amount: 1 }}
             >
               Atualmente estudante de Engenharia de Computação na Universidade Federal do Paraná, campus Apucarana.
-              Sou estagiária da empresa ItLab e presidente fundadora da empresa junior Therion
+              Sou acessora na empresa junior Therion
             </motion.p>
 
             <motion.div
@@ -54,7 +54,7 @@ export const Banner = () => {
               </a>
             </motion.div>
             <div className="flex gap-x-2 max-w-max mx-auto md:mx-0">
-              <a href="https://github.com/mariaeduardapedroso" target="_blank">
+              <a href="https://github.com/paulagmaru" target="_blank">
                 <FaGithub />
               </a>
               <a href="https://www.linkedin.com/in/maria-eduarda-pedroso-7671951b2/" target="_blank">
