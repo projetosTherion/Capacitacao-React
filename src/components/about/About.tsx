@@ -65,7 +65,7 @@ export const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5">
-              <button className="btn btn-lg"><a href="mailto:mariaeduarda@therionej.com.br">Vamos conversar</a></button>
+              <button className="btn btn-lg"><a href="mailto:paulamarukawa@alunos.utfpr.edu.br">Vamos conversar</a></button>
               <a href="https://beacons.ai/pedroso?fbclid=PAAaZUZ7vjAEeBh3Txrks_YpJLI2zXpxXcSzBWOEpDENTVvZGGspQeYiJ95NU_aem_Af2Pz9zH9XiZ63aEmQ7hq7Voq7ThuBcZB5VpTt2gSPLID_Je-w2cSIjlxAdYFQI7cdo" target="_blank" className="text-gradient btn-link">
                 Meu Portifolio
               </a>
