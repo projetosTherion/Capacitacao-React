@@ -13,8 +13,8 @@ export const Footer = (props: Props) => {
         <div className="flex lg:flex-row mb-10 justify-between">
           <div className="flex">
             <a href="" className="text-gradient">
-              Maria <br />
-              <span className="text-white">Eduarda</span>
+              Paula <br />
+              <span className="text-white">Marukawa</span>
             </a>
           </div>
           <div className="flex flex-col lg:basis-1/2">
