@@ -77,6 +77,3 @@ export const About = () => {
     </section>
   );
 };
-
-
-//test
