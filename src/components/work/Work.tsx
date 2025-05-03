@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
 import Img1 from "@/assets/portfolio-img1.png";
-import Img2 from "@/assets/portfolio-img2.png";
-import Img3 from "@/assets/portfolio-img3.png";
 import { Workimg } from "./workimg";
 
 export const Work = () => {
@@ -23,29 +21,16 @@ export const Work = () => {
               <p className="">
                 Um pouquinho de meus ultimos trabalhos pessoais.
               </p>
-              <button className="btn btn-sm mt-7"><a href="https://github.com/mariaeduardapedroso" target="_blank">Ver todos os projetos</a></button>
+              <button className="btn btn-sm mt-7"><a href="https://github.com/TTtiagoTT" target="_blank">Ver todos os projetos</a></button>
             </div>
             {/* img */}
             <Workimg
               img={Img1}
               nameProjeto={"Layout responsivo"}
               title={"Apeperia"}
-              url={"https://mariaeduardapedroso.github.io/Alura-Layout-Responsivo/"}
+              url={"https://github.com/TTtiagoTT"}
             />
-            {/* img */}
-            <Workimg
-              img={Img2}
-              nameProjeto={"Site HTML + CSS"}
-              title={"Alura Barbearia"}
-              url={"https://mariaeduardapedroso.github.io/Alura-HTML-E-CSS-final/"}
-            />
-            {/* img */}
-            <Workimg
-              img={Img3}
-              nameProjeto={"Site com javaScript"}
-              title={"Calculadora de gasto de combustivel"}
-              url={"https://mariaeduardapedroso.github.io/calcular-litros/"}
-            />
+
           </div>
         </motion.div>
       </div>

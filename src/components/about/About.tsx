@@ -26,17 +26,17 @@ export const About = () => {
             className="flex-1"
           >
             <h2 className="h2 text-accent">Sobre mim.</h2>
-            <h3 className="h3">sou desenvolvedora junior FullStack</h3>
+            <h3 className="h3">Sou estudante e desenvolvedor</h3>
             <p>
-              Atualmente sou presidente da empresa junior therion na qual trabalha com desenvolvimento
-              web, impressão e prototipagem 3D e vários outros serviços da area. Também sou estagiaria na empresa
-              ItLab na qual trabalho com Front-end e Back-end todos os dias.
+              Atualmente, estou no processo de trainee da empresa júnior Therion. A empresa trabalha com desenvolvimento
+              web, impressão e prototipagem 3D, etc. Tenho experiência 
+              em linguagens como Python, Java, C e Swift, e também no front-end, com Html, CSS e JavaScript.
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 mt-5">
               <div className="">
                 <div className="text-4xl text-gradient font-tertiary mb-2">
-                  {InView ? <CountUp start={0} end={10} duration={3} /> : null}
-                  +
+                  {InView ? <CountUp start={0} end={4} duration={3} /> : null}
+                  
                 </div>
                 <div className="text-sm tracking-[2px]">
                   Projetos<br />
@@ -44,16 +44,6 @@ export const About = () => {
                 </div>
               </div>
 
-              <div className="">
-                <div className="text-4xl text-gradient font-tertiary mb-2">
-                  {InView ? <CountUp start={0} end={13} duration={3} /> : null}
-                  +
-                </div>
-                <div className="text-sm tracking-[2px]">
-                  Cursos <br />
-                  Completos
-                </div>
-              </div>
 
               <div className="">
                 <div className="text-4xl text-gradient font-tertiary mb-2">
@@ -61,15 +51,12 @@ export const About = () => {
                 </div>
                 <div className="text-sm tracking-[2px]">
                   Anos de <br />
-                  Experiencia
+                  Experiência
                 </div>
               </div>
             </div>
             <div className="flex items-center gap-x-5">
-              <button className="btn btn-lg"><a href="mailto:mariaeduarda@therionej.com.br">Vamos conversar</a></button>
-              <a href="https://beacons.ai/pedroso?fbclid=PAAaZUZ7vjAEeBh3Txrks_YpJLI2zXpxXcSzBWOEpDENTVvZGGspQeYiJ95NU_aem_Af2Pz9zH9XiZ63aEmQ7hq7Voq7ThuBcZB5VpTt2gSPLID_Je-w2cSIjlxAdYFQI7cdo" target="_blank" className="text-gradient btn-link">
-                Meu Portifolio
-              </a>
+
             </div>
           </motion.div>
         </div>
