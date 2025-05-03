@@ -19,7 +19,7 @@ export const Services = () => {
             <h2 className="h2 text-accent">O que faço.</h2>
             <h3 className="h3">Entusiasta em programar e aprender</h3>
             <button className="btn btn-sm">
-              <a href="https://beacons.ai/pedroso?fbclid=PAAaZUZ7vjAEeBh3Txrks_YpJLI2zXpxXcSzBWOEpDENTVvZGGspQeYiJ95NU_aem_Af2Pz9zH9XiZ63aEmQ7hq7Voq7ThuBcZB5VpTt2gSPLID_Je-w2cSIjlxAdYFQI7cdo" target="_blank">
+              <a href="https://github.com/nath-rodrigues" target="_blank">
                 Entenda um pouco
               </a>
             </button>

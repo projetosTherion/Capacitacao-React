@@ -1,5 +1,5 @@
-import Avatar from "@/assets/avatar.svg";
-import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
+import Avatar from "@/assets/avatar.png";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
@@ -17,7 +17,7 @@ export const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
             >
               <h1 className="text-4xl font-bold lg:text-7xl">
-                Maria<span> Eduarda</span>
+                Nathália<span> Rodrigues</span>
               </h1>
               <div className="mb-6 text-4xl lg:text-6xl font-semibold uppercase">
                 <span className="ml-4 text-white">desenvolvedora</span>{" "}
@@ -39,7 +39,6 @@ export const Banner = () => {
               viewport={{ once: false, amount: 1 }}
             >
               Atualmente estudante de Engenharia de Computação na Universidade Federal do Paraná, campus Apucarana.
-              Sou estagiária da empresa ItLab e presidente fundadora da empresa junior Therion
             </motion.p>
 
             <motion.div
@@ -48,20 +47,17 @@ export const Banner = () => {
               initial="hidden"
               className="flex items-center gap-x-3 max-w-max mx-auto md:mx-0 mt-5 mb-5"
             >
-              <button className="btn btn-lg"><a href="mailto:mariaeduarda@therionej.com.br">Entre em contato</a></button>
-              <a className="text-gradient btn-link" href="https://beacons.ai/pedroso?fbclid=PAAaZUZ7vjAEeBh3Txrks_YpJLI2zXpxXcSzBWOEpDENTVvZGGspQeYiJ95NU_aem_Af2Pz9zH9XiZ63aEmQ7hq7Voq7ThuBcZB5VpTt2gSPLID_Je-w2cSIjlxAdYFQI7cdo" target="_blank">
+              <button className="btn btn-lg"><a href="mailto:nathaliarng@outlook.com">Entre em contato</a></button>
+              <a className="text-gradient btn-link" href="https://github.com/nath-rodrigues" target="_blank">
                 Meu portifolio
               </a>
             </motion.div>
             <div className="flex gap-x-2 max-w-max mx-auto md:mx-0">
-              <a href="https://github.com/mariaeduardapedroso" target="_blank">
+              <a href="https://github.com/nath-rodrigues" target="_blank">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/maria-eduarda-pedroso-7671951b2/" target="_blank">
+              <a href="https://www.linkedin.com/in/nathalia-rodrigues-n47h4l14" target="_blank">
                 <FaLinkedin />
-              </a>
-              <a href="https://www.facebook.com/mariaeduarda.pedroso.397" target="_blank">
-                <FaFacebook />
               </a>
             </div>
           </div>

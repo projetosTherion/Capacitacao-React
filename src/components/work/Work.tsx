@@ -23,7 +23,7 @@ export const Work = () => {
               <p className="">
                 Um pouquinho de meus ultimos trabalhos pessoais.
               </p>
-              <button className="btn btn-sm mt-7"><a href="https://github.com/mariaeduardapedroso" target="_blank">Ver todos os projetos</a></button>
+              <button className="btn btn-sm mt-7"><a href="https://github.com/nath-rodrigues" target="_blank">Veja todos </a></button>
             </div>
             {/* img */}
             <Workimg
