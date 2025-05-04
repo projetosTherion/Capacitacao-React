@@ -23,9 +23,16 @@ export const services: TypeService[] = [
       url: "https://www.alura.com.br/artigos/react-js",
     },
     {
-      name: "Site PHP",
+      name: "Site Backend em Python",
       description:
-        "Desenvolver um site com PHP oferece versatilidade e eficiência, permitindo a criação de páginas dinâmicas e interativas, essenciais para uma experiência web moderna.",
+        "O backend em Python é a parte do desenvolvimento web que lida com a lógica, o processamento de dados e a interação com o banco de dados, garantindo o funcionamento eficiente do site.",
+      link: "Saiba mais!",
+      url: "https://www.php.net/manual/pt_BR/intro-whatis.php",
+    },
+    {
+      name: "Banco de Dados",
+      description:
+        "O banco de dados é um sistema organizado para armazenar, gerenciar e recuperar informações de forma eficiente, essencial para aplicações modernas.",
       link: "Saiba mais!",
       url: "https://www.php.net/manual/pt_BR/intro-whatis.php",
     },
