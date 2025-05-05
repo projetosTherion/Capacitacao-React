@@ -71,7 +71,7 @@ export const Contact = () => {
             className="flex-1"
           >
             <div>
-              <h4 className="text-2xl uppercase text-accent font-medium">
+              <h4 className="text-2xl uppercase text-accent font-medium" style={{ color: "#f5eba9" }}>
                 Contato
               </h4>
               <h2 className="text-5xl lg:text-8xl uppercase mb-7">

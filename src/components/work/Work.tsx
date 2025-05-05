@@ -19,7 +19,7 @@ export const Work = () => {
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-7">
             {/* text */}
             <div className="md:p-5">
-              <h2 className="h2 leading-tight text-accent">Meus trabalhos</h2>
+              <h2 className="h2 leading-tight text-accent" style={{ color: "#f5eba9" }}>Meus trabalhos</h2>
               <p className="">
                 Um pouquinho de meus ultimos trabalhos pessoais.
               </p>

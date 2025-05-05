@@ -13,12 +13,12 @@ export const Footer = (props: Props) => {
         <div className="flex lg:flex-row mb-10 justify-between">
           <div className="flex">
             <a href="" className="text-gradient">
-              Maria <br />
-              <span className="text-white">Eduarda</span>
+              Luís <br />
+              <span className="text-white">Dessia</span>
             </a>
           </div>
           <div className="flex flex-col lg:basis-1/2">
-            <h3 className="h3">FullStack Developer</h3>
+            <h3 className="h3">Frontend Developer</h3>
           </div>
           <div className="flex-col flex">
             <Link
@@ -75,7 +75,7 @@ export const Footer = (props: Props) => {
               spy={true}
               offset={-200}
             >
-              <BsChatSquare /> <span>Contato</span>
+              <BsChatSquare style={{ color: "#f5eba9" }}/> <span style={{ color: "#f5eba9" }}>Contato</span>
             </Link>
           </div>
         </div>
