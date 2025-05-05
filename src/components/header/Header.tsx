@@ -5,8 +5,8 @@ export const Header = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center ">
           <a href="" className="text-gradient">
-            Maria <br />
-            <span className="text-white">Eduarda</span>
+            Lohanna <br />
+            <span className="text-white"></span>
           </a>
           <button className="btn btn-sm"><a href="mailto:mariaeduarda@therionej.com.br">Entrar em contato</a></button>
         </div>
