@@ -26,11 +26,10 @@ export const About = () => {
             className="flex-1"
           >
             <h2 className="h2 text-accent">Sobre mim.</h2>
-            <h3 className="h3">sou desenvolvedora junior FullStack</h3>
+            <h3 className="h3">sou desenvolvedor junior</h3>
             <p>
-              Atualmente sou presidente da empresa junior therion na qual trabalha com desenvolvimento
-              web, impressão e prototipagem 3D e vários outros serviços da area. Também sou estagiaria na empresa
-              ItLab na qual trabalho com Front-end e Back-end todos os dias.
+            Estudante de Engenharia, atualmente em treinamento na empresa júnior Therion, com foco em desenvolvimento web,
+            impressão, prototipagem 3D e outros serviços inovadores da área
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 mt-5">
               <div className="">

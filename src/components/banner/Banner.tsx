@@ -17,10 +17,10 @@ export const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
             >
               <h1 className="text-4xl font-bold lg:text-7xl">
-                Maria<span> Eduarda</span>
+                Leonardo<span> Laraya</span>
               </h1>
               <div className="mb-6 text-4xl lg:text-6xl font-semibold uppercase">
-                <span className="ml-4 text-white">desenvolvedora</span>{" "}
+                <span className="ml-4 text-white">desenvolvedor</span>{" "}
                 <p>
                   <TypeAnimation
                     className="text-accent"
@@ -38,9 +38,8 @@ export const Banner = () => {
               initial="hidden"
               viewport={{ once: false, amount: 1 }}
             >
-              Atualmente estudante de Engenharia de Computação na Universidade Federal do Paraná, campus Apucarana.
-              Sou estagiária da empresa ItLab e presidente fundadora da empresa junior Therion
-            </motion.p>
+              Sou estudante de Engenharia de Computação na Universidade Federal do Paraná, campus Apucarana.
+                        </motion.p>
 
             <motion.div
               variants={fadeIn("up", 0.5)}
@@ -49,18 +48,18 @@ export const Banner = () => {
               className="flex items-center gap-x-3 max-w-max mx-auto md:mx-0 mt-5 mb-5"
             >
               <button className="btn btn-lg"><a href="mailto:mariaeduarda@therionej.com.br">Entre em contato</a></button>
-              <a className="text-gradient btn-link" href="https://beacons.ai/pedroso?fbclid=PAAaZUZ7vjAEeBh3Txrks_YpJLI2zXpxXcSzBWOEpDENTVvZGGspQeYiJ95NU_aem_Af2Pz9zH9XiZ63aEmQ7hq7Voq7ThuBcZB5VpTt2gSPLID_Je-w2cSIjlxAdYFQI7cdo" target="_blank">
+              <a className="text-gradient btn-link" href="https://www.linkedin.com/in/leonardo-simoes-laraya-554b01341/" target="_blank">
                 Meu portifolio
               </a>
             </motion.div>
             <div className="flex gap-x-2 max-w-max mx-auto md:mx-0">
-              <a href="https://github.com/mariaeduardapedroso" target="_blank">
+              <a href="https://github.com/LeonardoLaraya" target="_blank">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/maria-eduarda-pedroso-7671951b2/" target="_blank">
+              <a href="https://www.linkedin.com/in/leonardo-simoes-laraya-554b01341/" target="_blank">
                 <FaLinkedin />
               </a>
-              <a href="https://www.facebook.com/mariaeduarda.pedroso.397" target="_blank">
+              <a href="https://www.facebook.com/profile.php?id=61563767377344" target="_blank">
                 <FaFacebook />
               </a>
             </div>
@@ -68,13 +67,13 @@ export const Banner = () => {
           {/* IMAGE */}
           <motion.div
             variants={fadeIn("up", 0.4)}
-            whileInView={"show"}
+            whileInView="show"
             initial="hidden"
             viewport={{ once: false, amount: 0.7 }}
-            className="hidden md:flex flex-1"
-          >
-            <img src={Avatar} alt="" />
-          </motion.div>
+            className="flex flex-1"
+                    >
+             <img src={Avatar} alt="Avatar" />
+            </motion.div>
         </div>
       </div>
     </section>
