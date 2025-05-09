@@ -24,7 +24,7 @@ export const Banner = () => {
                 <p>
                   <TypeAnimation
                     className="text-accent"
-                    sequence={["Html", 2000, "Css", 2000, "R", 2000, "Python", 2000,"JavaScript", 2000]}
+                    sequence={["Html", 2000, "Css", 2000, "JavaScript", 2000, "Python", 2000,"React", 2000]}
                     speed={50}
                     wrapper="span"
                     repeat={Infinity}
@@ -38,7 +38,7 @@ export const Banner = () => {
               initial="hidden"
               viewport={{ once: false, amount: 1 }}
             >
-              Atualmente estudante de Engenharia de Computação na Universidade Federal do Paraná, campus Apucarana.
+              Atualmente estudante de Engenharia de Computação na Universidade Tecnológica Federal do Paraná, campus Apucarana.
               Sou integrante da empresa junior Therion.
             </motion.p>
 

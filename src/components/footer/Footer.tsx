@@ -18,7 +18,7 @@ export const Footer = (props: Props) => {
             </a>
           </div>
           <div className="flex flex-col lg:basis-1/2">
-            <h3 className="h3">FullStack Developer</h3>
+            <h3 className="h3">Fullstack Developer & Security Enthusiast</h3>
           </div>
           <div className="flex-col flex">
             <Link

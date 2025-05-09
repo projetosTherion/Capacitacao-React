@@ -2,20 +2,6 @@ import { TypeService } from "./type";
 
 export const services: TypeService[] = [
     {
-      name: "Impressão 3D",
-      description:
-        "A impressão 3D revoluciona a fabricação ao criar objetos tridimensionais camada por camada, permitindo a produção de peças personalizadas e complexas com precisão.",
-      link: "Saiba mais!",
-      url: "https://3dlab.com.br/impressao-3d-o-que-e/",
-    },
-    {
-      name: "Prototipagem 3D",
-      description:
-        "A prototipagem 3D acelera o desenvolvimento de produtos ao fornecer protótipos físicos rápidos e iterativos, possibilitando testes e ajustes antes da produção em larga escala.",
-      link: "Saiba mais!",
-      url: "https://produtecalab.com.br/prototipagem-3d-o-que-e-e-quais-sao-os-seus-beneficios/",
-    },
-    {
       name: "Web Design",
       description:
         "Web Design é o processo de criação de sites e aplicações web, focando na estética, usabilidade e experiência do usuário.",
@@ -30,10 +16,31 @@ export const services: TypeService[] = [
       url: "https://www.alura.com.br/artigos/o-que-e-desenvolvimento-web",
     },
     {
+      name: "Segurança da Informação",
+      description:
+        "A segurança da informação protege dados e sistemas contra acessos não autorizados, garantindo confidencialidade, integridade e disponibilidade das informações.",
+      link: "Saiba mais!",
+      url: "https://www.kaspersky.com.br/blog/o-que-e-seguranca-da-informacao/1044/",
+    },
+    {
+      name: "Redes de Computadores",
+      description:
+        "Redes de computadores conectam dispositivos para compartilhar dados e recursos, permitindo comunicação eficiente entre sistemas.",
+      link: "Saiba mais!",
+      url: "https://www.netacad.com/",
+    },
+    {
       name: "Consultoria em TI",
       description:
         "A consultoria em TI oferece suporte especializado para otimizar processos e implementar soluções tecnológicas eficazes.",
       link: "Saiba mais!",
       url: "https://www.example.com/consultoria-ti",
+    },
+    {
+      name: "Inteligência Artificial",
+      description:
+        "Inteligência Artificial é a simulação de processos de inteligência humana por sistemas computacionais, incluindo aprendizado, raciocínio e autocorreção.",
+      link: "Saiba mais!",
+      url: "https://www.ibm.com/cloud/learn/what-is-artificial-intelligence",
     },
   ];

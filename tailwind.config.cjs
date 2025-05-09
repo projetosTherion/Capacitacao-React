@@ -20,8 +20,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#0a0a0a',
-        accent: '#B809C3',
+      primary: '#0a0a0a',      // preto
+      accent: '#b81414',       // vermelho escuro
+      secondary: '#ff0000',    // vermelho puro
+      highlight: '#ff4500',    // laranja avermelhado
       },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",

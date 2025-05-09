@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
-import Img1 from "@/assets/portfolio-img1.png";
-import Img2 from "@/assets/portfolio-img2.png";
-import Img3 from "@/assets/portfolio-img3.png";
+import Img1 from "@/assets/portfolio-img1.jpg";
+import Img2 from "@/assets/portfolio-img2.jpg";
+import Img3 from "@/assets/portfolio-img3.webp";
 import { Workimg } from "./workimg";
 
 export const Work = () => {
@@ -42,9 +42,9 @@ export const Work = () => {
             {/* img */}
             <Workimg
               img={Img3}
-              nameProjeto={"Mario Jump"}
-              title={"Jogo 2D"}
-              url={"https://github.com/arthurpetroli/Mario_Jump"}
+              nameProjeto={"Pagina de Institucional"}
+              title={"Pagina com IA"}
+              url={"https://github.com/IF-DeividSilva/Desenvolvimento_De_Aplicacoes_Web/tree/main/Project"}
             />
           </div>
         </motion.div>
