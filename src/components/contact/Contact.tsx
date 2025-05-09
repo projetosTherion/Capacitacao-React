@@ -75,7 +75,7 @@ export const Contact = () => {
                 Contato
               </h4>
               <h2 className="text-5xl lg:text-8xl uppercase mb-7">
-                Vamos conversar!
+                Converse comigo!
               </h2>
             </div>
           </motion.div>
@@ -115,7 +115,7 @@ export const Contact = () => {
               required
             ></textarea>
             <button type="submit" className="btn btn-sm">
-              enviar mensagem
+              Enviar
             </button>
           </motion.form>
         </div>

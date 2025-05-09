@@ -22,11 +22,4 @@ export const services: TypeService[] = [
       link: "Saiba mais!",
       url: "https://www.alura.com.br/artigos/react-js",
     },
-    {
-      name: "Site PHP",
-      description:
-        "Desenvolver um site com PHP oferece versatilidade e eficiência, permitindo a criação de páginas dinâmicas e interativas, essenciais para uma experiência web moderna.",
-      link: "Saiba mais!",
-      url: "https://www.php.net/manual/pt_BR/intro-whatis.php",
-    },
   ];

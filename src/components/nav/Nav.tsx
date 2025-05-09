@@ -43,17 +43,7 @@ export const Nav = () => {
           >
             <BsClipboardData />
           </Link>
-          <Link
-            to="work"
-            className={styleLink}
-            activeClass="active"
-            smooth={true}
-            spy={true}
-            offset={-200}
-            title="Work"
-          >
-            <BsBriefcase />
-          </Link>
+          
           <Link
             to="contact"
             className={styleLink}
